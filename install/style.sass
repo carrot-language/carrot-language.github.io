@@ -1,0 +1,114 @@
+body, html
+    margin: 0px
+    padding: 0px
+
+*
+    font-family: sans-serif
+
+.header
+    z-index: 99
+    display: block
+    position: absolute
+    left: 0px
+    right: 0px
+    top: 0px
+    height: 60px
+
+    .inner
+        display: flex
+        margin: 0px auto
+        max-width: 1100px
+        height: 100%
+        align-items: center
+        justify-content: center
+
+        .left
+            display: flex
+            width: 100%
+            height: 100%
+            align-items: center
+            justify-content: flex-start
+
+        .right
+            display: flex
+            width: 100%
+            height: 100%
+            align-items: center
+            justify-content: flex-end
+
+        div
+
+            a
+                padding: 15px 10px
+                font-size: 16px
+                text-decoration: none
+                font-weight: 600
+                color: #333
+
+.masthead
+    position: relative
+    z-index: 3
+    width: 100%
+    height: 700px
+    background: #ffffff
+
+    .centered
+        position: absolute
+        left: 0px
+        top: 0px
+        bottom: 0px
+        right: 0px
+        width: 100%
+        height: 100%
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-direction: column
+
+        h1
+            color: #000
+            font-weight: 100
+            font-size: 50px
+
+        code
+            padding: 15px 25px
+            background: #333
+            border-radius: 5px
+            font-family: monospace
+            backdrop-filter: blur(2px)
+            color: #fff
+
+.infobox
+    max-width: 1000px
+    margin: 0px auto
+
+    table, tr, td
+        width: 100%
+        table-layout: fixed
+
+    .head
+        padding: 0px
+        padding-top: 60px
+        border-bottom: 1px solid #ddd
+
+        h2
+            font-weight: 100
+            font-size: 32px
+            margin: 0px
+
+    .main
+        font-weight: 100
+        line-height: 1.6
+        text-align: justify
+
+    code
+        margin: 0px 25px
+        box-sizing: border-box
+        display: block
+        border-radius: 5px
+        padding: 10px
+        background: #333
+        width: calc(100% - 50px)
+        height: 100%
+        color: #fff
+        font-family: monospace
